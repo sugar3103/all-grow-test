@@ -1,0 +1,25 @@
+{
+  "name": "baitest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sugar3103/all-grow-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sugar3103/all-grow-test/issues"
+  },
+  "homepage": "https://github.com/sugar3103/all-grow-test#readme"
+}
