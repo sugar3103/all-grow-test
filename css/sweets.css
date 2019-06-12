@@ -52,10 +52,10 @@ div {
 .main-bg {
     background-image: url(../img/sweets/header_sweets.jpg);
     width: 960px;
-    height: 259px;
+    height: 284px;
     background-size: cover;
     opacity: 1;
-    background-repeat: no-repeat;
+    background-repeat: auto;
 }
 
 li,
@@ -68,10 +68,10 @@ li a {
 }
 
 
-/*item header position*/
+/*item header */
 
 .logo img {
-    margin-top: 60px;
+    margin-top: 80px;
 }
 
 .logo {
@@ -113,34 +113,50 @@ li a {
     font-family: "Yumin-Bold";
     font-size: 18px;
     color: #642200;
+    margin-top: 45px;
 }
 
 .content-title p {
     font-size: 6px;
 }
 
-.content-img img,
-.content2-img img {
+.content {
+    width: 500px;
+    margin-left: 27%;
+}
+
+.text-box img {
+    float: right;
+    margin-left: 10px;
     width: 150px;
+    height: 220px;
 }
 
-.text-box,
+.text-box2 img {
+    float: left;
+    width: 150px;
+    height: 220px;
+}
+
+.text-box h1,
+.text-box2 h1 {
+    font-family: "Yu-Gothic";
+    font-size: 12px;
+    color: #642200
+}
+
 .text-box2 {
-    width: 330px;
-    height: 234px;
+    margin-top: 70px;
 }
 
-.content-text h1 {
+.text-box p,
+.text-box2 p {
     font-family: "Yu-Gothic";
-    font-size: 8px;
+    font-size: 9px;
 }
 
-.content-text p {
-    font-family: "Yu-Gothic";
-    font-size: 7px;
-}
-
-button {
+.btn-content,
+.btn-content1 {
     background: #642200;
     color: white;
     text-align: center;
@@ -150,8 +166,85 @@ button {
     border: 0;
 }
 
+.btn-content1 {
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
 
 /*End content + content1*/
+
+
+/*content3*/
+
+.content3-img img {
+    width: 500px;
+    height: 250px;
+}
+
+.content3 {
+    margin-left: 27%;
+}
+
+.content3-detail {
+    width: 420px;
+    margin-left: 40px;
+}
+
+.content3-detail h {
+    font-family: "Yu-Gothic";
+    font-size: 8px;
+    color: #642200;
+}
+
+.content3-detail p {
+    font-family: "Yu-Gothic";
+    font-size: 7px;
+}
+
+
+/*End content3*/
+
+
+/*content4*/
+
+.content4 {
+    margin-left: 25%;
+}
+
+.content4-title {
+    text-align: center;
+    font-family: "Yumin-Cho";
+    font-size: 18px;
+    color: #642200
+}
+
+.content4-detail {
+    width: 159px;
+    float: left;
+}
+
+.content4 h1 {
+    font-size: 10px;
+    color: #642200
+}
+
+.content4-title p,
+.content4 p {
+    font-size: 9px;
+}
+
+.content4-detail img {
+    width: 26px;
+    margin-left: 35%;
+}
+
+.content4-detail {
+    float: left
+}
+
+
+/*End content4*/
 
 .under-line {
     border: 1px solid white;
