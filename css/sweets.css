@@ -255,13 +255,15 @@ li a {
 
 .footer {
     background: url(../img/index/footer_about.jpg);
-    width: 100%;
+    width: 960px;
     min-height: 480px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 310px;
     opacity: 1;
     background-repeat: no-repeat;
+}
+
+.footerText {
+    margin-top: 15px;
 }
 
 .footer p,
@@ -273,7 +275,8 @@ li a {
 }
 
 .footerLogo img {
-    margin-top: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     width: 70px;
 }
 
@@ -289,7 +292,7 @@ li a {
         width: 100%
     }
     div {
-        margin: 0 0 0 0;
+        margin-left: 0
     }
 }
 
