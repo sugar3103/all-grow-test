@@ -43,7 +43,7 @@ div {
 }
 
 .containG {
-    width: 960px;
+    width: 100%;
 }
 
 
@@ -51,11 +51,7 @@ div {
 
 .main-bg {
     background-image: url(../img/sweets/header_sweets.jpg);
-    width: 960px;
-    height: 284px;
     background-size: cover;
-    opacity: 1;
-    background-repeat: auto;
 }
 
 li,
@@ -255,10 +251,9 @@ li a {
 
 .footer {
     background: url(../img/index/footer_about.jpg);
-    width: 960px;
+    width: 100%;
     min-height: 480px;
     margin-top: 310px;
-    opacity: 1;
     background-repeat: no-repeat;
 }
 

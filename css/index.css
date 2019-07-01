@@ -26,10 +26,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     font-style: normal;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 html,
 body {
     font-family: "Yu-Gothic";
-    font-weight: 500;
     height: 100%;
     width: 100%;
 }
@@ -39,16 +42,22 @@ div {
 }
 
 .containG {
-    width: 960px;
+    width: 100%;
+}
+
+.center {
+    text-align: center;
+    justify-items: center;
+    align-items: center;
 }
 
 .main-bg {
     background-image: url(../img/index/main03.jpg);
-    width: 940px;
-    height: 480px;
+    width: 100%;
+    min-height: 960px;
     background-size: cover;
-    opacity: 1;
     background-repeat: no-repeat;
+    padding-top: 250px;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 10px;
@@ -62,24 +71,11 @@ div {
 
 /*item header position*/
 
-.logo img {
-    margin-top: 125px;
-}
-
-.logo,
-.headerText {
-    text-align: center;
-}
-
-.navbar {
-    margin-left: 29%;
-}
-
 
 /*//end item header position*/
 
 .logo img {
-    width: 70px;
+    width: 138px
 }
 
 li,
@@ -110,8 +106,12 @@ li a {
 }
 
 .nav-item img {
-    width: 20px;
+    width: 40px;
     padding-left: 10px;
+}
+
+.navbar {
+    margin-left: 33%;
 }
 
 
@@ -173,7 +173,7 @@ li a {
     background-size: cover;
     opacity: 1;
     background-repeat: no-repeat;
-    width: 480px;
+    width: 50%;
     min-height: 212px;
     float: left;
 }
@@ -183,7 +183,7 @@ li a {
     background-size: cover;
     opacity: 1;
     background-repeat: no-repeat;
-    width: 480px;
+    width: 50%;
     min-height: 212px;
     float: left;
 }
@@ -303,12 +303,10 @@ li a {
 
 .footer {
     background: url(../img/index/footer_about.jpg);
-    width: 960px;
-    min-height: 268px;
-    opacity: 1;
+    width: 100%;
+    min-height: 536px;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: -8px;
 }
 
 .footer p,
@@ -328,10 +326,6 @@ li a {
     width: 19px;
 }
 
-.footerText {
-    margin-top: 10px;
-}
-
 .copyRight {
     margin-top: 15px;
 }
@@ -342,9 +336,6 @@ li a {
 @media only screen and (max-width: 767px) {
     .containG {
         width: 100%
-    }
-    .bg3-contain {
-        margin-left: 0;
     }
 }
 
